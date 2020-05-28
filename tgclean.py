@@ -3,7 +3,7 @@
 # Modification by FriendlyNeighborhoodShane
 
 # Source link for curious people
-sauce = "https://github.com/FriendlyNeighborhoodShane/TGClean";
+sauce = "https://t.me/ShityBrainOfficial";
 
 import time;
 
@@ -93,9 +93,9 @@ for target in config.targets:
       deleted = deleted + messagecount;
 
     # Send result
-    app.send_message(chatobj.id, "- - - TGCLEAN REPORT - - -\n\nFinished group purge at: " + str(time.time()) + "\n\nMessages deleted: " + str(deleted) + "\n\nUserbot sauce at: " + sauce, disable_web_page_preview = True);
+    app.send_message(chatobj.id, "- - - SHITYPURGE - REPORT - - -\n\nPurge fertiggestellt. Purge-ID: " + str(time.time()) + "\n\nSo viele Nachrichten habe ich gelöscht: " + str(deleted) + "\n\nDer beste von allen hier: " + sauce, disable_web_page_preview = True);
 
-    print("   -- Done");
+    print("   -- fertig");
 
 print(" ");
 print(" - Stopping Client");
