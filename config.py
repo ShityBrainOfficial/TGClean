@@ -8,7 +8,7 @@ class ChatGroup:
     self.chatlist = chatlist;
     self.delete_before_days = delete_before_days;
   chatlist = [];
-  delete_before_days = o.5;
+  delete_before_days = 0.5;
 
 # API id and hash obtained during setup
 tg_api_id = 1054125;
