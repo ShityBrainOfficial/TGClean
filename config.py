@@ -8,7 +8,7 @@ class ChatGroup:
     self.chatlist = chatlist;
     self.delete_before_days = delete_before_days;
   chatlist = [];
-  delete_before_days = 0.5;
+  delete_before_days = 0;
 
 # API id and hash obtained during setup
 tg_api_id = 1054125;
@@ -26,5 +26,5 @@ listA = [
 # Taking lists as first argument and days to not delete as second
 
 targets = [
-  ChatGroup(listA, 0.5),
+  ChatGroup(listA, 0),
 ]
